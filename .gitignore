@@ -1,0 +1,45 @@
+# Python
+backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local databases and credentials
+*.db
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+*credential*.xml
+
+# Python build artifacts
+*.egg-info/
+build/
+dist/
+
+# Frontend build information
+*.tsbuildinfo
+
+# Local temporary files
+*.tmp
+*.bak
