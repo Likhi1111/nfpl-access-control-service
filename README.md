@@ -1,5 +1,17 @@
 # NFPL Access Control Service
 
+## Live Demo
+
+**Application:** https://nfpl-access-dashboard.onrender.com
+
+**API Documentation:** https://nfpl-access-api.onrender.com/docs
+
+**GitHub Repository:** https://github.com/Likhi1111/nfpl-access-control-service
+
+The application demonstrates scoped role-based access control, shipment workflow management, separation of duties, and auditable authorization decisions.
+
+**Demo notice:** The hosted application uses fictional sample data and selectable demonstration identities. Authentication must be implemented before using it with real users or business data.
+
 A full-stack demonstration of **explainable, scope-aware role-based access control (RBAC)** and maker/checker shipment workflows for a customs brokerage. Built with **FastAPI, SQLAlchemy 2.x, PostgreSQL, React, TypeScript and Vite**.
 
 > **Security warning:** `X-Actor-Id` is a **demo-only identity selector**, **not authentication**. Any caller able to reach the API can impersonate a seeded user. Run this application only in a trusted local environment. Do not publish a write-enabled instance on the public internet without replacing this mechanism with verified authentication and authorization.
