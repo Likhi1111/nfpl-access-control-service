@@ -48,7 +48,7 @@ These instructions **do not require the original developer's database, Docker co
 **1. Clone and enter the repository**
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/nfpl-access-control-service.git
+git clone https://github.com/Likhi1111/nfpl-access-control-service.git
 cd nfpl-access-control-service
 ```
 
